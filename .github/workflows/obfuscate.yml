@@ -8,6 +8,9 @@ on:
     paths:
       - '明文源吗'
 
+permissions:
+  contents: write   # 授予写入权限
+
 jobs:
   build-and-obfuscate:
     runs-on: ubuntu-latest
